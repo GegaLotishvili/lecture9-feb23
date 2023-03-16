@@ -1,0 +1,47 @@
+header {
+    height: 70px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-bars {
+    display: none;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div img {
+    width: 200px;
+    margin: 10px;
+}

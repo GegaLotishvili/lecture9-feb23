@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 977px) {
+    div img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    .fa-bars {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 712px) {
+    div img {
+        width: 250px;
+    }
+}
